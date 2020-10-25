@@ -11,7 +11,6 @@ class ApplicationTests {
 
 	@Test
 	void contextLoads() {
-		fail("Not yet implemented");
 	}
 
 }
