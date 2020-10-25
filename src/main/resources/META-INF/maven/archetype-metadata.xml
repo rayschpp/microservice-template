@@ -1,0 +1,20 @@
+<archetype-descriptor
+	xmlns="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0 http://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd"
+	name="microservice-template" partial="false">
+	<fileSets>
+		<fileSet filtered="true" packaged="true">
+			<directory>src/main/java</directory>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/resources</directory>
+		</fileSet>
+		<fileSet>
+			<directory>src/test/java</directory>
+		</fileSet>
+		<fileSet>
+			<directory>src/test/resources</directory>
+		</fileSet>
+	</fileSets>
+</archetype-descriptor>
