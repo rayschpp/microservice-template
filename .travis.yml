@@ -1,0 +1,9 @@
+sudo: false
+language: java
+cache:
+  directories:
+    - "$HOME/.cache"
+
+verify:
+  provider: script
+  script: "mvn verify"
