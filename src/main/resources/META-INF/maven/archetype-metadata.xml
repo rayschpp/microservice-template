@@ -16,5 +16,12 @@
 		<fileSet>
 			<directory>src/test/resources</directory>
 		</fileSet>
+		<fileSet filtered="true" packaged="false">
+			<directory />
+			<includes>
+				<include>Dockerfile</include>
+				<include>LICENSE</include>
+			</includes>
+		</fileSet>
 	</fileSets>
 </archetype-descriptor>
