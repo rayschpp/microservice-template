@@ -16,7 +16,7 @@
 		<fileSet filtered="true">
 			<directory>src/test/resources</directory>
 		</fileSet>
-		<fileSet filtered="true" packaged="false">
+		<fileSet filtered="true">
 			<directory />
 			<includes>
 				<include>Dockerfile</include>
