@@ -21,7 +21,13 @@
 			<includes>
 				<include>Dockerfile</include>
 				<include>LICENSE</include>
+				<include>README.md</include>
 			</includes>
 		</fileSet>
 	</fileSets>
+	<requiredProperties>
+		<requiredProperty key="description">
+			<defaultValue>A basic Spring Boot microservice</defaultValue>
+		</requiredProperty>
+	</requiredProperties>
 </archetype-descriptor>
