@@ -29,5 +29,8 @@
 		<requiredProperty key="description">
 			<defaultValue>A basic Spring Boot microservice</defaultValue>
 		</requiredProperty>
+		<requiredProperty key="entity">
+			<defaultValue>Entity</defaultValue>
+		</requiredProperty>
 	</requiredProperties>
 </archetype-descriptor>
