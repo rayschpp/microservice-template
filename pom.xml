@@ -5,12 +5,33 @@
 
 	<groupId>de.rayschpp</groupId>
 	<artifactId>microservice-template</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-
+	<version>0.0.7-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
-	<name>Microservice template</name>
+	<name>${project.groupId}:${project.artifactId}</name>
 	<description>An Apache Maven archetype to create microservices based on Spring Boot</description>
+	<url>https://github.com/rayschpp/microservice-template</url>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>https://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Raynhold Schapp</name>
+			<email>raynhold.schapp@rayschpp.de</email>
+			<url>https://www.rayschpp.de</url>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com:rayschpp/microservice-template.git</connection>
+		<developerConnection>scm:git:ssh://github.com:rayschpp/microservice-template.git</developerConnection>
+		<url>https://github.com/rayschpp/microservice-template</url>
+	</scm>
 
 	<build>
 		<extensions>
