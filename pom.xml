@@ -5,8 +5,7 @@
 
 	<groupId>de.rayschpp</groupId>
 	<artifactId>microservice-template</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-
+	<version>0.0.7-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>Microservice template</name>
